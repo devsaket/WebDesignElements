@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #000;
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    flex-basis: 300px;
+    border: solid 2px coral;
+    padding: 20px;
+    text-align: center;
+}
+.card > #img2{
+    display: none;
+}
+.card:hover > #img1{
+    display: none;
+}
+.card:hover > #img2{
+    display: inline;
+}

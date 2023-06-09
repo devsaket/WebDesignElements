@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a1a1a;
+}
+img{
+    position: relative;
+    width: 30vw;
+    height: 50vh;
+    margin-left: 20vw;
+}
+
+.parallax-text{
+    position: absolute;
+    font-family: 'Montserrat';
+}
