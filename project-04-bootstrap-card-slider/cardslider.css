@@ -11,10 +11,8 @@
 :root{
     --font-cormorant: Cormorant;
     --font-jost: Jost;
-
     --primary-color: #14160F;
     --secondary-color : #BF9444;
-
 }
 
 .bg-main{
@@ -35,7 +33,7 @@
 .popular-item{
     background-image: url(./img/popular-bg.png);
     background-position: left;
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 
 .owl-food-item{
@@ -57,9 +55,9 @@
 }
 .owl-prev{
     top: 60%;
-    left: -60px;
+    left: -40px;
 }
 .owl-next{
     top: 60%;
-    right: -20px;
+    right: -15px;
 }
