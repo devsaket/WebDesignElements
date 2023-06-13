@@ -1,0 +1,65 @@
+@font-face {
+    font-family: Jost;
+    src: url(../fonts/Jost-Regular.ttf);
+}
+
+@font-face {
+    font-family: Cormorant;
+    src: url(../fonts/CormorantGaramond-Regular.ttf);
+}
+
+:root{
+    --font-cormorant: Cormorant;
+    --font-jost: Jost;
+
+    --primary-color: #14160F;
+    --secondary-color : #BF9444;
+
+}
+
+.bg-main{
+    background-color: var(--primary-color) !important;
+}
+.bg-main2{
+    background-color: var(--secondary-color) !important;
+}
+.text-solidyellow{
+    color: var(--secondary-color) !important;
+}
+.btn-border{
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+/* ---------- Custom CSS ------ */
+.popular-item{
+    background-image: url(./img/popular-bg.png);
+    background-position: left;
+    background-size: 100%;
+}
+
+.owl-food-item{
+    display: flex;
+    justify-content: center;
+}
+.owl-food-item > .col{
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.owl-stage{
+    padding: 20px;
+}
+.owl-item{
+    margin-left: -5px !important;
+}
+.owl-prev{
+    top: 60%;
+    left: -60px;
+}
+.owl-next{
+    top: 60%;
+    right: -20px;
+}

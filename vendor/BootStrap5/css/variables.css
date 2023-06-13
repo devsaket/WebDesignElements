@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Jost;
+    src: url(../fonts/Jost-Regular.ttf);
+}
+
+@font-face {
+    font-family: Cormorant;
+    src: url(../fonts/CormorantGaramond-Regular.ttf);
+}
+
+:root{
+    --font-cormorant: Cormorant;
+    --font-jost: Jost;
+
+    --primary-color: #14160F;
+    --secondary-color : #BF9444;
+
+}
+
+.bg-main{
+    background-color: var(--primary-color) !important;
+}
+.bg-main2{
+    background-color: var(--secondary-color) !important;
+}
+.text-solidyellow{
+    color: var(--secondary-color) !important;
+}
+.btn-border{
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}

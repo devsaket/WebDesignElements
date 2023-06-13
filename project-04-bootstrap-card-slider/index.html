@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 04 - Bootstrap Card Slider</title>
+
+    <link rel="stylesheet" href="../vendor/BootStrap5/css/bootstrap.min.css">
+    
+    <!-- Font-Awesome Icon Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!-- Owl Carousel CSS FILES -->
+    <link rel="stylesheet" href="../vendor/OwlCarousel234/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../vendor/OwlCarousel234/assets/owl.theme.default.min.css">
+
+
+    <link rel="stylesheet" href="./cardslider.css">
+</head>
+<body>
+    <div class="container-fluid py-5 popular-item bg-main">
+        <div class="container position-relative pb-5 my-5">
+            <div class="row text-center">
+                <div class="col">
+                    <p class="text-solidyellow p-3">
+                        <img src="./img/sub-title-vec.svg" alt="">
+                        Our Popular items
+                        <img src="./img/sub-title-vec.svg" alt="">
+                    </p>
+                    <h1 class="text-white pb-5 display-4">Restho Popular Items List</h1>
+                </div>
+            </div>
+            <div class="row px-4 owl-carousel owl-theme owl-food-item">
+                <div class="col text-center px-2 position-relative item">
+                    <div class="position-absolute mt-2 ms-5" style="left: 2.2rem">
+                        <img src="./img/pricetag.svg" alt="">
+                        <span class="text-solidyellow fs-5 position-absolute"
+                            style="left: 1.1rem; top: 1rem;">$21</span>
+                    </div>
+                    <img src="./img/popular1.png" alt="" class="w-75 mx-5">
+                    <div class="text-white border rounded-4 py-5 px-4" style="margin-top:-2.2rem;">
+                        <p><span class="stars"></span><span>Review (20)</span></p>
+                        <h2>Chicken Biryani</h2>
+                        <p>It ia a long established that a reader will be distracted.</p>
+                    </div>
+                </div>
+                <div class="col text-center px-2 position-relative item">
+                    <div class="position-absolute mt-2 ms-5" style="left: 2.2rem">
+                        <img src="./img/pricetag.svg" alt="">
+                        <span class="text-solidyellow fs-5 position-absolute" style="left: 1rem; top: 1rem;">$25</span>
+                    </div>
+                    <img src="./img/popular2.png" alt="" class="w-75 mx-5">
+                    <div class="text-white border rounded-4 py-5 px-4" style="margin-top: -2.2rem;">
+                        <p><span class="stars"></span><span>Review (54)</span></p>
+                        <h2>Veg Biryani</h2>
+                        <p>It is a long established that a reader will be distracted.</p>
+                    </div>
+                </div>
+                <div class="col text-center px-2 position-relative item">
+                    <div class="position-absolute mt-2 ms-5" style="left: 2.2rem">
+                        <img src="./img/pricetag.svg" alt="">
+                        <span class="text-solidyellow fs-5 position-absolute" style="left: 1rem; top: 1rem;">$21</span>
+                    </div>
+                    <img src="./img/popular3.png" alt="" class="w-75 mx-5">
+                    <div class="text-white border rounded-4 py-5 px-4" style="margin-top: -2.2rem;">
+                        <p><span class="stars"></span><span>Review (20)</span></p>
+                        <h2>Thai Soup</h2>
+                        <p>It is a long established that a reader will be distracted.</p>
+                    </div>
+                </div>
+                <div class="col text-center px-2 position-relative">
+                    <div class="position-absolute mt-2 ms-5" style="left: 2.2rem">
+                        <img src="./img/pricetag.svg" alt="">
+                        <span class="text-solidyellow fs-5 position-absolute" style="left: 1rem; top: 1rem;">$21</span>
+                    </div>
+                    <img src="./img/popular3.png" alt="" class="w-75 mx-5">
+                    <div class="text-white border rounded-4 py-5 px-4" style="margin-top: -2.2rem;">
+                        <p><span class="stars"></span><span>Review (20)</span></p>
+                        <h2>Thai Momos</h2>
+                        <p>It is a long established that a reader will be distracted.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-nav">
+                <div class="owl-prev position-absolute"><button class="prev-btn"><i class="fa-solid fa-circle-chevron-left"></i></button></div>
+                <div class="owl-next position-absolute"><button class="next-btn"><i class="fa-solid fa-circle-chevron-right"></i></button></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="../vendor/OwlCarousel234/owl.carousel.min.js"></script>
+    <script src="../vendor/BootStrap5/js/bootstrap.bundle.js"></script>
+
+    <script src="./cardslider.js"></script>
+</body>
+</html>
